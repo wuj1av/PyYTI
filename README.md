@@ -1,5 +1,5 @@
 # PyYTI
-![Alpha](https://img.shields.io/badge/alpha-red) ![Stars](https://img.shields.io/github/stars/wuj1av/PyYTI?color=blue&style=flat-square)
+![Alpha](https://img.shields.io/badge/alpha-red) ![Stars](https://img.shields.io/github/stars/wuj1av/PyYTI?color=blue&style=square)
 
 Простенький клиент для ютуба. Полностью бесплатный (работает на InnerTube), безопасный (обновляется каждое изменение / по issues), only-metadata (т.е. видео не качает; метаданных много).
 
@@ -25,7 +25,7 @@ import pyyti
 
 client = pyyti.YouTube()  # Сокращенная форма - pyyti.YT()
 
-v = yt.videos.get("dQw4w9WgXcQ")
+v = client.videos.get("dQw4w9WgXcQ")
 
 print("Название: ", v.title)
 ```
