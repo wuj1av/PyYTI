@@ -1,4 +1,4 @@
-# ![PyYTI](./images/Logo.SVG)
+# ![PyYTI](./images/Logo.SVG#gh-light-mode-only) ![PyYTI](./images/LogoDark.SVG#gh-dark-mode-only)
 ![Alpha](https://img.shields.io/badge/alpha-red) ![Stars](https://img.shields.io/github/stars/wuj1av/PyYTI?color=blue&style=square)
 
 Простенький клиент для ютуба. Полностью бесплатный (работает на InnerTube), безопасный (обновляется каждое изменение / по issues), only-metadata (т.е. видео не качает; метаданных много).
